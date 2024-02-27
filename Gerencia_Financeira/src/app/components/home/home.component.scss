@@ -1,0 +1,31 @@
+.content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    height: 92%;
+}
+
+table{
+    overflow: scroll;
+}
+
+.data-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.header_table{
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.grid-item{
+    width: 80%;
+    height: 80%;
+
+} 
+
+//.grid-ultimas-transacoes{
+
+//}
